@@ -1,0 +1,19 @@
+.hide{
+    display: none;
+}
+
+.editItem{
+    margin-left: 2%;
+}
+div .wrap{
+    display: flex;
+}
+li {
+    display: flex;
+    align-items: center;
+  }
+li::before {
+  content: "\2022"; 
+  margin-right: 10px; 
+}
+  
